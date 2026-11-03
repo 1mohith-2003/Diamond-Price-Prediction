@@ -1,0 +1,98 @@
+DIAMOND PRICE PREDICTION DATASET
+================================
+
+Project:
+Diamond Price Prediction using KNN Regression
+
+Dataset:
+diamonds.csv
+
+Description:
+This dataset contains information about diamonds,
+including their physical characteristics and quality
+attributes. It is used to predict diamond prices using
+Machine Learning.
+
+Dataset Size:
+53,940 records
+10 columns
+
+FEATURE DESCRIPTIONS
+====================
+
+1. carat:
+   Weight of the diamond in carats.
+
+2. cut:
+   Quality of the diamond cut.
+   Categories: Fair, Good, Very Good, Premium, Ideal.
+
+3. color:
+   Diamond color grade.
+   Categories: D, E, F, G, H, I, J.
+
+4. clarity:
+   Diamond clarity grade.
+   Categories: I1, SI2, SI1, VS2, VS1,
+   VVS2, VVS1, IF.
+
+5. depth:
+   Total depth percentage of the diamond.
+
+6. table:
+   Width of the top facet relative to the
+   widest point of the diamond.
+
+7. price:
+   Price of the diamond.
+   This is the target variable.
+
+8. x:
+   Length of the diamond in millimeters.
+
+9. y:
+   Width of the diamond in millimeters.
+
+10. z:
+    Depth of the diamond in millimeters.
+
+
+MACHINE LEARNING DETAILS
+========================
+
+Algorithm:
+K-Nearest Neighbors (KNN) Regressor
+
+Input Features:
+carat, cut, color, clarity, depth, table, x, y, z
+
+Target Variable:
+price
+
+Train-Test Split:
+75% Training
+25% Testing
+
+Preprocessing:
+- StandardScaler for numerical features.
+- OneHotEncoder for categorical features.
+
+Evaluation Metrics:
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R2 Score
+
+Deployment:
+Streamlit Community Cloud
+
+Programming Language:
+Python
+
+Libraries:
+Pandas, NumPy, Scikit-learn, Streamlit, Pickle
+
+Dataset Source:
+https://github.com/tidyverse/ggplot2
+
+================================
+End of Dataset Description
